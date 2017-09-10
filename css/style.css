@@ -1,0 +1,106 @@
+body {
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+	text-align: center;
+	padding-top: 90px;
+	background: url("../images/Conference-center.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	color: white;
+}
+
+header span {
+	font-family: 'Indie Flower', cursive;
+	font-size: 128px;
+}
+
+header .info {
+	font-size: 16px;
+	width: 700px;
+	margin: 0 auto;
+	
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 25px;
+	border-radius: 3px;
+}
+header .button-registration {
+	background-color: brown;
+}
+
+header .button-discover {
+	background-color: gray;
+	margin-left: 30px;
+}
+header .buttons {
+	margin-top: 20px;
+}
+
+.container {
+	height: 450px;
+}
+
+.container .content {
+	width: 45%;
+	padding-left: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.container .content-info {
+	display: inline-block;
+	float: right;
+	width: 45%;
+	padding-right: 50px;
+	padding-top: 12px;
+}
+
+.container .content-info .content-about {
+	font-size: 22px;
+	margin-bottom: 31px;
+}
+
+.container .content-info .content-list ul li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.container .content-info .content-list ul li:before {
+	background: url(../images/2181-200.png) center left no-repeat;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	position: relative;
+	content: "";
+	top: 2px;
+	left: -3px;
+}
+
+.content-image img {
+	width: 220px;
+	height: 150px;
+}
+
+.content-image {
+	display:inline-block;
+	margin: 23px 0px 0px 80px;
+	
+}
+
+footer {
+	background-color: #cacdd1;
+	width: auto;
+	height: 40px;
+}
+
+
+
+
